@@ -25,12 +25,12 @@ const Projects = () => {
     <ProjectsPage>
       <Card>
         <p style={{borderBottom: 'solid black 5px', textAlign: 'center' }}>Roulette</p>
-        <img width='100%' height='100%' src='/public/html_css.png' alt='htmlcss' />
+        <img width='100%' height='100%' src='https://res.cloudinary.com/dhe2c2/image/upload/v1658207226/html_css_trjtdk.png' alt='htmlcss' />
         <p style={{borderTop: 'solid black 5px'}}>This is info about the project</p>
       </Card>
       <Card>
         <p style={{borderBottom: 'solid black 5px', textAlign: 'center' }}>Ineftee</p>
-        <img width='100%' height='100%' src='/public/nodejs.png' alt='nodejs' />
+        <img width='100%' height='100%' src='https://res.cloudinary.com/dhe2c2/image/upload/v1658207221/nodejs_cuy6xg.png' alt='nodejs' />
         <p style={{borderTop: 'solid black 5px'}}>This is info about the project</p>
       </Card>
       
