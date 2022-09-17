@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const About = () => {
   return (
-    <div>
+    <div style={{height: '100vh'}}>
       <Intro>
         <Heading>More about me and my skills.</Heading>
         <Body>

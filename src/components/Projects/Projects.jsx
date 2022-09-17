@@ -8,6 +8,7 @@ const Projects = () => {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 100vh;
   `
 
   const Card = styled.div`
@@ -58,6 +59,17 @@ const Projects = () => {
         style={{borderTop: 'solid black 5px'}}
         >
           This is info about my team project!
+        </p>
+      </Card>
+      <Card>
+        <p style={{borderBottom: 'solid black 5px', textAlign: 'center' }} >
+          <a href='https://retroshack-frontend.vercel.app/' >Retroshack</a>
+        </p>
+        <img width='100%' height='100%' src='https://res.cloudinary.com/dhe2c2/image/upload/v1660234322/reacticon_bivaun.svg' />
+        <p
+          style={{borderTop: 'solid black 5px'}}
+        >
+          This was my final project for GA, It was built with Next.js on the frontend and Express on the backend. I use sequelize with postgresql for the database.
         </p>
       </Card>
       

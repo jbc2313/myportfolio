@@ -9,6 +9,7 @@ const Home = () => {
     background-color: darkgreen;
     margin: 2rem;
     border-radius: 10px;
+    height: 100vh;
     
     
     h1 {
