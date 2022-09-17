@@ -65,7 +65,7 @@ const Projects = () => {
         <p style={{borderBottom: 'solid black 5px', textAlign: 'center' }} >
           <a href='https://retroshack-frontend.vercel.app/' >Retroshack</a>
         </p>
-        <img width='100%' height='100%' src='https://res.cloudinary.com/dhe2c2/image/upload/v1660234322/reacticon_bivaun.svg' />
+        <img width='100%' height='100%' src='https://res.cloudinary.com/dhe2c2/image/upload/v1663427846/nextjs_20210828121943_0_npuchu.png' />
         <p
           style={{borderTop: 'solid black 5px'}}
         >
