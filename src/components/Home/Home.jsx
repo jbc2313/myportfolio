@@ -6,10 +6,11 @@ const Home = () => {
 
   const Home = styled.div`
     
-    background-color: darkgreen;
+    background-color: #292F40;
     margin: 2rem;
     border-radius: 10px;
-    height: 100vh;
+    height: 100%;
+    padding: 30px;
     
     
     h1 {
@@ -20,12 +21,34 @@ const Home = () => {
 
   return (
     <Home>
-      <h1>This is the home base for all things related to my dev career.</h1>
-      <h1>All of my finished projects and my blog will be available here.</h1>
-      <h1>Feel free to check me out at twitter @jcorbin_dev</h1>
-
+      <Intro>
+        <Heading>Thanks for Stoping In</Heading>
+        <Body>
+        This is the home base for all things related to my dev career. All of my finished projects and my future blog will be available here. If you have any questions or just want to chat you can find my info here as well.
+        </Body>
+      </Intro>
     </Home>
   )
 }
 
 export default Home
+
+
+const Intro = styled.div`
+  height: auto;
+  width: 45%;
+  border: solid black 3px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 8px;
+  background: black;
+`
+const Body = styled.p`
+  background: #292F40;
+  color: white;
+`
+
+const Heading = styled.h2`
+  text-align: center;
+  color: white;
+`

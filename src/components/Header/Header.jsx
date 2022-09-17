@@ -22,7 +22,7 @@ const Header = () => {
     color: white;
   `
   const LogoLink = styled.p`
-    margin-left: 5px;
+    margin-left: 9px;
     margin-right: 5px;
     color: white;
   `
@@ -34,9 +34,9 @@ const Header = () => {
         <LogoLink>J.Corbin</LogoLink>
       </div>
       <NavLinks>
-        <Link style={{textDecoration: 'none'}} to='/projects'><PageLink>Projects</PageLink></Link>
-        <Link style={{textDecoration: 'none'}} to='/about'><PageLink>About</PageLink></Link>
-        <Link style={{textDecoration: 'none'}} to='/contact'><PageLink>Contact</PageLink></Link>
+        <Link style={{textDecoration: 'none'}} to='/projects'><PageLink>Projects |</PageLink></Link>
+        <Link style={{textDecoration: 'none'}} to='/about'><PageLink>About |</PageLink></Link>
+        <Link style={{textDecoration: 'none'}} to='/contact'><PageLink>Contact |</PageLink></Link>
         <Link style={{textDecoration: 'none'}} to='/home'><PageLink>Home</PageLink></Link>
       </NavLinks>
 
