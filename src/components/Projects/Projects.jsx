@@ -27,12 +27,16 @@ const Projects = () => {
     width: 200px;
       a {
         text-decoration: none;
-        color: black;
+        color: white;
+      }
+      p {
+        color: white;
       }
     @media (max-width: 600px) {
       p {
         padding: 1.5rem;
         font-size: smaller;
+        color: white;
       }
     }
 

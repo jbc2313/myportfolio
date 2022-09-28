@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import './animate.css'
 
 const Home = () => {
 
@@ -20,6 +20,10 @@ const Home = () => {
 
 
   return (
+    <>
+    <div className='term'>
+
+    </div>
     <Home>
       <Intro>
         <Heading>Thanks for Stoping In</Heading>
@@ -28,6 +32,7 @@ const Home = () => {
         </Body>
       </Intro>
     </Home>
+    </>
   )
 }
 
@@ -52,3 +57,4 @@ const Heading = styled.h2`
   text-align: center;
   color: white;
 `
+

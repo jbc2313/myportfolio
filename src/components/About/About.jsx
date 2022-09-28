@@ -15,6 +15,7 @@ const About = () => {
         <CircContainer>
           <Circ>
             {/* Frontend  */}
+            {/* <img height={50} src='https://res.cloudinary.com/dhe2c2/image/upload/v1660234322/reacticon_bivaun.svg' alt='react logo' /> */}
           </Circ>
           <CircDiv>
             <ul>
@@ -36,20 +37,21 @@ const About = () => {
               <li> Netlify </li>
             </ul>
           </CircDiv>
-          <Circ>
+          <Circ2>
             {/* Backend  */}
-          </Circ>
+          </Circ2>
         </CircContainer>
         <CircContainer>
-          <Circ>
+          <Circ3>
             {/* Node.js  */}
-          </Circ>
+          </Circ3>
           <CircDiv>
             <ul>
               <li> Express </li>
               <li> EJS </li>
               <li> Puppeteer </li>
               <li> Mongoose </li>
+              <li> Sequelize </li>
               {/* ADD Sequalize after you build something with it */}
             </ul>
           </CircDiv>
@@ -63,17 +65,17 @@ const About = () => {
               <li> Create React App </li>
             </ul>
           </CircDiv>
-          <Circ>
+          <Circ4>
             {/* React.js  */}
-          </Circ>
+          </Circ4>
         </CircContainer>
         <CircContainer>
-          <Circ>
+          <Circ5>
             {/* Python  */}
-          </Circ>
+          </Circ5>
           <CircDiv>
             <ul>
-              <li> Django </li>
+              <li> Python </li>
               <li> Django REST framework </li>
             </ul>
           </CircDiv>
@@ -85,9 +87,9 @@ const About = () => {
               <li> Postgresql </li>
             </ul>
           </CircDiv>
-          <Circ>
+          <Circ6>
             {/* Databases */}
-          </Circ>
+          </Circ6>
         </CircContainer>
       </div>
 
@@ -135,4 +137,64 @@ const Circ = styled.div`
   width: 90px;
   border-radius: 50%;
   display: inline-block;
+  background-image: url('https://res.cloudinary.com/dhe2c2/image/upload/v1660234322/reacticon_bivaun.svg');
+  background-size: 90px;
+    
+`
+
+const Circ2 = styled.div`
+  background-color: black;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  display: inline-block;
+  background-image: url('https://res.cloudinary.com/dhe2c2/image/upload/v1664324049/nodejs-45adbe594d_le3srs.png');
+  background-size: 90px;
+    
+`
+const Circ3 = styled.div`
+  background-color: black;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  display: inline-block;
+  background-image: url('https://res.cloudinary.com/dhe2c2/image/upload/v1664324183/6202fcdee5ee8636a145a41b_1234_ykdqrd.png');
+  background-size: 90px;
+    
+`
+
+const Circ4 = styled.div`
+  background-color: black;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  display: inline-block;
+  background-image: url('https://res.cloudinary.com/dhe2c2/image/upload/v1664324322/nextjs_tswhev.png');
+  background-size: 110px;
+  background-position-x: -9px;
+    
+`
+
+
+const Circ5 = styled.div`
+  background-color: black;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  display: inline-block;
+  background-image: url('https://res.cloudinary.com/dhe2c2/image/upload/v1664324602/django_j2z1ua.png');
+  background-size: 90px;
+    
+`
+
+const Circ6 = styled.div`
+  background-color: black;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  display: inline-block;
+  background-image: url('https://res.cloudinary.com/dhe2c2/image/upload/v1664324633/68747470733a2f2f692e696d6775722e636f6d2f79764559686e5a2e706e67_mltkaw.png');
+  background-size: 107px;
+  background-position-x: -10px;
+    
 `
