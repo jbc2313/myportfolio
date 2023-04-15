@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import './animate.css'
+import term from './Hello_World.gif'
+//import './animate.css'
 
 const Home = () => {
 
@@ -17,13 +18,20 @@ const Home = () => {
       margin: 2rem;
     }
   `
+    
 
+    /*
+    // old terminal hello world, used css sprites/steps
+        <div className='term'>
+
+        </div>
+    */
 
   return (
     <>
-    <div className='term'>
-
-    </div>
+    <ImageDiv>
+      <img className={{margin: '50px'}} src={term} alt="Terminal" />
+    </ImageDiv>
     <Home>
       <Intro>
         <Heading>Thanks for Stoping In</Heading>
@@ -56,5 +64,17 @@ const Body = styled.p`
 const Heading = styled.h2`
   text-align: center;
   color: white;
+`
+
+const ImageDiv = styled.div`
+    width: 50vh;
+    margin: auto;
+    margin-top: 50px;
+
+    img {
+        height: 500px;
+        clip-path: inset( 0px 0px 100px 0px);
+    }
+
 `
 
