@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components' 
-import { Link } from 'react-router-dom'
 
 const Projects = () => {
   
@@ -56,7 +55,7 @@ const Projects = () => {
         </Card>
         <Card>
           <p style={{borderBottom: 'solid black 5px', textAlign: 'center' }}>
-            <a href='https://ineftee.herokuapp.com/'>
+            <a href='https://ineftee.onrender.com'>
               Ineftee
             </a>
           </p>
